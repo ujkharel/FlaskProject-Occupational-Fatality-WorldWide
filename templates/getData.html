@@ -1,0 +1,26 @@
+<!doctype html>
+<title>A short quiz</title>
+<link rel=stylesheet type=text/css href='{{ url_for('static',filename='style_lulu.css')}}'>
+<div class=page>
+  <h1>Select Country and Variable</h1>
+  <div class=metanav>
+    <form id='userinfoform_lulu' method='post' action='index_lulu' >
+      <p>
+    Country: <input type='text' name='name_lulu' />
+      </p>
+      <p>
+    Variable: 
+        <select>
+        <option value="United States">United States</option>
+        <option value="Nepal">Nepal</option>
+        <option value="Jamaica">Jamaica</option>
+        <option value="Nigeria">Nigeria</option>
+        </select>
+      </p>
+      <p>
+    <input type='submit' value='Submit' />
+      </p>
+    </form>
+
+  </div>
+</div>
